@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+html{
+  background-color: lightpink;
+  font-family: 'Times New Roman', Times, serif;
+}
+.container-fluid{
+  background-color: lightpink;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder; 
+}
+input[type="text"]{
+  background-color: transparent;
+  color: black;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  border: solid 1px black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input[type="text"]:focus{
+  background-color: transparent;
+  color: black;
+  
+}
+
+button{
+  color: aliceblue;
+  background-color: black;
+
+}
+.list-unstyled {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+@media only screen and (min-width : 1024px) {
+  .container-fluid{
+    flex-direction: row;
+  }
 }
